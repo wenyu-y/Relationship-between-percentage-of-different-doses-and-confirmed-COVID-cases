@@ -1,16 +1,16 @@
 # NOTE
-I have add an updated code for HW4 file to makeup half of losing points in HW4. Thank you.
+
 
 # How to run my code
 There are two parts to run codes for this project:
 
-1. First, you need to run the codes from updated code for HW4 subfolder to obtain 3 datasets. Those 3 datasets are also stored in the data subfolder just in case. In the updated code for HW4, there are 3 .py files community_level_api.py, counties_web_scraping.py, and vaccinations_api.py. Run each .py file in the terminal and the datasets will be stored as a .csv file.
+1. First, you need to run the codes from updated code for HW4 subfolder to obtain 3 datasets. Those 3 datasets are also stored in the data subfolder just in case. There are 3 .py files community_level_api.py, counties_web_scraping.py, and vaccinations_api.py. Run each .py file in the terminal and the datasets will be stored as a .csv file.
 
 	There are three example commands you can use in the terminal:
-	1. python3 community_level_api.py --static /Users/yangwenyu/Desktop/finalproject/data/community_level.csv  #you can use any three of the .py in updated code for HW4 folder and corresponding .csv file.
+	1. python3 community_level_api.py --static /Users/yangwenyu/Desktop/finalproject/data/community_level.csv  #you can use any three of the .py  and corresponding .csv file.
 
 	3. python3 community_level_api.py --scrape  #return only 5 entires
-# you also can use any of the .py in updated code for HW4 folder
+# you also can use any of the .py 
 
 	2. python3 community_level_api.py  OR  python3 counties_web_scraping.py OR python3 vaccinations_api.py
 
